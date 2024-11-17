@@ -1,0 +1,16 @@
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+nav a{
+    margin-right: 40px;
+}
+
+.logo {
+    width: 119px;
+    height: 86px;
+    margin-right: 40px;
+}

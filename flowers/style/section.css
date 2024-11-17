@@ -1,0 +1,102 @@
+section{
+    margin-bottom: 97px;
+}
+
+.sectionHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sectionGreen {
+    background-color: #F3FFFC;
+    padding: 80px 0px;
+}
+
+.standsText {
+    font-size: 40px;
+    color: #004F44;
+}
+
+.arrivalsText {
+    font-size: 36px;
+    color: #004F44;
+}
+
+.sectionView {
+    font-size: 24px;
+    color: #004F44;
+}
+
+.sectionRow {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.cardArrivals {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 270px;
+    height: 404px;
+}
+
+.cardArrivals div p {
+    font-size: 29px;
+    color: #fff;
+    margin-bottom: 12px;
+}
+
+.cardArrivals div a {
+    font-size: 16px;
+}
+
+.cardArrivals div img {
+    width: 20px;
+}
+
+.blure {
+    background-color: rgb(1, 44, 38);
+}
+
+.cardArrivals:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../image/section/arrivals/arrivals1.svg);
+    opacity: 0.71;
+}
+
+.cardArrivals:nth-child(2) {
+    background-image: url(../image/section/arrivals/arrivals2.svg);
+
+}
+
+.cardArrivals:nth-child(3) {
+    background-image: url(../image/section/arrivals/arrivals3.svg);
+}
+
+.cardArrivals:nth-child(4) {
+    background-image: url(../image/section/arrivals/arrivals4.svg);
+}
+
+.cardStands{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 370px;
+    height: 404px;
+}
+
+.cardStands:nth-child(1) {
+    background-image: url(../image/section/stands/plants1.svg);
+}
+
+.cardStands:nth-child(2) {
+    background-image: url(../image/section/stands/plants2.svg);
+}
+
+.cardStands:nth-child(3) {
+    background-image: url(../image/section/stands/plants3.svg);
+}

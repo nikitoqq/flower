@@ -1,11 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/section.css">
+    <link rel="stylesheet" href="style/article.css">
+    <link rel="stylesheet" href="style/footer.css">
+    <title>Главная</title>
 </head>
+
 <body>
+    <header>
+        <div class="limited">
+            <nav>
+                <img src="image/logo.svg" class="logo" alt="logo">
+                <a href="index.html">Магазин</a>
+                <a href="page/catalog.html">Каталог</a>
+                <a href="page/aboutUs.html">О нас</a>
+            </nav>
+            <article class="happinessBlooms">
+                <div class="articleColumn">
+                    <h1 class="">Счастье расцветает изнутри</h1>
+                    <p class="articleText">
+                        Наша окружающая среда, мир, в котором мы живем и работаем, является зеркалом наших взглядов
+                        и
+                        ожиданий.
+                    </p>
+                    <div class="articleShop">
+                        <BUtton class="btnShop"><a href="page/catalog.html">Купить сейчас</a></BUtton>
+                        <div class="articleLink">
+                            <a href="page/catalog.html">Смотреть цветы</a>
+                            <img class="arrow" src="image/icon/arrow.svg" alt="arrow">
+                        </div>
+                    </div>
+                </div>
+                <div class="articleColumn">
+                    <div class="articleColumnInside">
+                        <div class="articleRow">
+                            <img class="articleImage1" src="image/article/article1.svg" alt="flower">
+                        </div>
+                        <div class="articleRow">
+                            <img class="articleImage1" src="image/article/article2.svg" alt="flower">
+                        </div>
+                    </div>
+                    <div class="articleColumnInside">
+                        <div class="articleRow">
+                            <img class="articleImage2" src="image/article/article3.svg" alt="flower">
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="limited">
+                <div class="sectionHeader">
+                    <h2 class="arrivalsText">Красочные новые поступления</h2>
+                    <a class="sectionView" href="page/catalog.html">Смотреть всё</a>
+                </div>
+                <div class="sectionRow">
+                    <div class="blure">
+                        <div class="cardArrivals">
+                            <div>
+                                <p>Голубая Лилия</p>
+                                <div>
+                                    <a href="page/catalog.html">Больше информации</a>
+                                    <img src="image/icon/arrow.svg" alt="flower">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cardArrivals"></div>
+                    <div class="cardArrivals"></div>
+                    <div class="cardArrivals"></div>
+                </div>
+            </div>
+        </section>
+        <section class="sectionGreen">
+            <div class="limited">
+                <div class="sectionHeader">
+                    <h2 class="standsText">Стенды для растений</h2>
+                    <a class="sectionView" href="page/catalog.html">Смотреть всё</a>
+                </div>
+                <div class="sectionRow">
+                    <div class="cardStands"></div>
+                    <div class="cardStands"></div>
+                    <div class="cardStands"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="limited">
+            <article class="footerShipping">
+                <h2 class="footerShippingText">Бесплатная доставка</h2>
+                <p class="shippingRegion">*только для того же региона</p>
+                <div class="contacts">
+                    <img src="image/icon/phone.svg" alt="phone icon">
+                    <p>+375 (29) 189-19-00</p>
+                </div>
+                <div class="contacts">
+                    <img src="image/icon/mail.svg" alt="mail icon">
+                    <p>flowerOrder@mail.ru</p>
+                </div>
+            </article>
+            <iframe class="map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18225.730330748564!2d30.194301262731948!3d55.17948641894593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46c5715d05f7809d%3A0xb9c7cb289e0e9607!2z0J_Qu9Cw0L3QtdGC0LAg0YDQvtC3!5e0!3m2!1sru!2sby!4v1731805272715!5m2!1sru!2sby"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </footer>
 </body>
+
 </html>

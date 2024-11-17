@@ -1,0 +1,36 @@
+.aboutUsHeading {
+    margin: 70px 0px 40px 0px;
+    font-size: 32px;
+    color: #004F44;
+}
+
+.aboutUsText {
+    margin: 20px 0px;
+    font-size: 20px;
+    line-height: 28px;
+    max-width: 600px;
+}
+
+.aboutUsPS {
+    font-size: 30px;
+    color: #004F44;
+    margin-bottom: 70px;
+}
+
+.spanPS {
+    font-size: 20px;
+    color:  black;
+    margin-left: 10px;
+}
+
+.aboutUsFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aboutUsFlex img {
+    width: 300px;
+    margin: 20px;
+    
+}

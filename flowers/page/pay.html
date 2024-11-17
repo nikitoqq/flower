@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/header.css">
+    <link rel="stylesheet" href="../style/footer.css">
+    <link rel="stylesheet" href="../style/pay.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="limited">
+            <nav>
+                <img src="../image/logo.svg" class="logo" alt="logo">
+                <a href="../index.html">Магазин</a>
+                <a href="catalog.html">Каталог</a>
+                <a href="aboutUs.html">О нас</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h2>Введите данные для оплаты</h2>
+        <form action="/process-payment" method="POST">
+          <label for="name">Имя на карте:</label>
+          <input type="text" id="name" name="name" placeholder="Иван Иванов" required>
+          
+          <label for="card-number">Номер карты:</label>
+          <input type="text" id="card-number" name="card-number" placeholder="1234 5678 9012 3456" required pattern="\d{4} \d{4} \d{4} \d{4}">
+          
+          <label for="expiry-date">Срок действия:</label>
+          <input type="month" id="expiry-date" name="expiry-date" required>
+          
+          <label for="cvv">CVV:</label>
+          <input type="password" id="cvv" name="cvv" placeholder="123" required pattern="\d{3}">
+          
+          <label for="payment-method">Выберите способ оплаты:</label>
+          <select id="payment-method" name="payment-method" required>
+            <option value="visa">Visa</option>
+            <option value="mastercard">MasterCard</option>
+            <option value="mir">Мир</option>
+            <option value="paypal">PayPal</option>
+          </select>
+          
+          <button type="submit">Оплатить</button>
+        </form>
+        <p class="footer">
+          Мы гарантируем безопасность ваших данных. Все платежи защищены с использованием современных технологий шифрования.
+        </p>
+      </main>
+      <footer>
+        <div class="limited">
+            <article class="footerShipping">
+                <h2 class="footerShippingText">Бесплатная доставка</h2>
+                <p class="shippingRegion">*только для того же региона</p>
+                <div class="contacts">
+                    <img src="../image/icon/phone.svg" alt="phone icon">
+                    <p>+375 (29) 189-19-00</p>
+                </div>
+                <div class="contacts">
+                    <img src="../image/icon/mail.svg" alt="mail icon">
+                    <p>flowerOrder@mail.ru</p>
+                </div>
+            </article>
+            <iframe class="map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18225.730330748564!2d30.194301262731948!3d55.17948641894593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46c5715d05f7809d%3A0xb9c7cb289e0e9607!2z0J_Qu9Cw0L3QtdGC0LAg0YDQvtC3!5e0!3m2!1sru!2sby!4v1731805272715!5m2!1sru!2sby"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </footer>
+</body>
+</html>

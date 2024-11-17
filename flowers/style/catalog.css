@@ -1,0 +1,91 @@
+.catalog{
+    margin: 78px 0px;
+}
+
+.catalog h1{
+    margin-bottom: 48px;
+    font-size: 40px;
+    color: #004F44;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 279px;
+    margin: 28px;
+}
+
+.card img {
+    margin-bottom: 20px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 26px;
+}
+
+.itemText {
+    font-size: 20px;
+    color: #004F44;
+}
+
+.itemLimit {
+    max-width: 180px;
+}
+
+.cardRow p {
+    color: #9EA9A7;
+}
+
+.buy {
+    width: 79px;
+    height: 35px;
+    background-color: #004F44;
+    color: #fff;
+}
+
+.cardColumn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cardRow {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cardRow div {
+    display: flex;
+    margin-top: 4px;
+}
+
+.color {
+    width: 16px;
+    height: 16px;
+    border-radius: 90px;
+    margin-right: 5px;
+}
+
+.color:nth-child(2) {
+    background-color: #F3A195;
+}
+
+.color:nth-child(3) {
+    background-color: #EFEAE6;
+}
+
+.color:nth-child(4) {
+    background-color: #C38364;
+}
+
+.color:nth-child(1) {
+    background-color: #39362E;
+}

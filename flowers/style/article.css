@@ -1,0 +1,57 @@
+.happinessBlooms {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #004F44;
+    margin-bottom: 70px;
+    padding-top: 92px;
+}
+
+h1 {
+    color: #EFF7F5;
+    font-size: 64px;
+    margin-bottom: 32px;
+}
+
+.articleText {
+    color: #EFF7F5;
+    margin-bottom: 32px;
+}
+
+.articleShop {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 207px;
+}
+
+.btnShop {
+    width: 156px;
+    height: 59px;
+    background-color: #EFF7F5;
+    margin-right: 43px;
+}
+
+.btnShop a {
+    color: #004F44;
+    
+}
+
+.arrow {
+    width: 16px;
+    height: 10px;
+    margin-left: 16px;
+}
+
+.articleLink {
+    display: flex;
+    align-items: center;
+}
+
+.articleColumn:nth-child(1) {
+   max-width: 400px;
+}
+
+.articleColumn:nth-child(2) {
+    display: flex;
+}
